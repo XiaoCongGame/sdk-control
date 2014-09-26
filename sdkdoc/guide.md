@@ -52,7 +52,7 @@ PC游戏开发者一般只需要考虑键盘鼠标的操控。手机游戏开发
 
 SDK的使用非常简单。它遵循Android标准的事件流，没有学习一套新按键事件标准的成本。对原有代码的侵入非常低。开发者甚至可以在不改动原有逻辑的情况下完成适配。
 
-首先将SDK的jar包放入工程：将 **control-sdk.jar** 放入游戏工程的 **libs** 目录。
+首先将SDK的jar包放入工程：将 **xc-control-sdk.jar**([下载](https://github.com/XiaoCongGame/sdk-control/blob/master/xc-control-sdk.jar)) 放入游戏工程的 **libs** 目录。
 
 SDK的核心类是`tv.xiaocong.sdk.control.ControlManager`。这个类负责加载配置、过滤事件。这个类需要被实例化、初始化。初始化成功后，将通过`ControlManagerInitCallback`回调接口通知初始化成功，按键过滤、转换已就绪。
 
