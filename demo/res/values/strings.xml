@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="control_sdk_diagnose">小葱控制SDK诊断程序</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_native_events">无SDK时原生按键事件监视</string>
+    <string name="enter_sdk_demo">启用SDK后按键事件监视</string>
+
+</resources>
